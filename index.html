@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday DEVI JII  💖</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Canvas for Fireworks -->
+    <canvas id="fireworks-canvas"></canvas>
+    
+    <!-- Floating Hearts/Confetti Container -->
+    <div class="floating-elements">
+        <div class="heart">💖</div>
+        <div class="heart">💕</div>
+        <div class="heart">💗</div>
+        <div class="heart">🎉</div>
+        <div class="heart">✨</div>
+        <div class="heart">🎈</div>
+        <div class="heart">💖</div>
+        <div class="heart">💕</div>
+        <div class="heart">🎊</div>
+        <div class="heart">✨</div>
+    </div>
+
+    <!-- Main Content Container -->
+    <div class="container">
+        <!-- Photo Section -->
+        <div class="photo-section" id="photo-section">
+            <div class="photo-frame">
+                <!-- CUSTOMIZE: Replace this URL with your crush's photo -->
+                <img src="PIC/1 time.jpg" 
+                     alt="My Love" 
+                     class="profile-photo">
+                <div class="glow-effect"></div>
+            </div>
+            
+            <!-- Cut the Cake Button -->
+            <button class="cake-button" id="cake-button">
+                🎂 Cut the Cake
+            </button>
+        </div>
+
+        <!-- Cake Animation Section -->
+        <div class="cake-section hidden" id="cake-section">
+            <div class="cake-container">
+                <div class="cake" id="cake">
+                    <div class="cake-top"></div>
+                    <div class="cake-middle"></div>
+                    <div class="cake-bottom"></div>
+                    <div class="candle candle-1">
+                        <div class="flame"></div>
+                    </div>
+                    <div class="candle candle-2">
+                        <div class="flame"></div>
+                    </div>
+                    <div class="candle candle-3">
+                        <div class="flame"></div>
+                    </div>
+                </div>
+                <div class="knife" id="knife"></div>
+            </div>
+            <p class="cake-instruction">Click on the cake to cut it! 🔪</p>
+        </div>
+
+        <!-- Message Section -->
+        <div class="message-section hidden" id="message-section">
+            <div class="love-message">
+                <h1 class="birthday-message">Happy Birthday My Love 💖</h1>
+                <p class="sweet-message">
+                    On this special day, I want you to know how much you mean to me. 
+                    You light up my world like these fireworks light up the sky! 🌟
+                </p>
+                <button class="continue-button" id="continue-button">
+                    <a href="https://lucky-fulara.github.io/HAPPY-BIRTHDAY-DEVI/" style="text-decoration: none; color: inherit;">Continue</a>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Background Music -->
+     <audio id="background-music" src="Music/Happy Birthday Devi.mp3" type="audio/mpeg" autoplay loop preload="auto"></audio>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
