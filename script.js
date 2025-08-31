@@ -2,10 +2,6 @@
 let fireworksCanvas, ctx;
 let fireworks = [];
 let particles = [];
-
-// CUSTOMIZE: Replace this URL with your desired redirect destination
-const REDIRECT_URL = 'https://example.com/surprise'; // Change this to your desired URL
-
 // Initialize the page
 document.addEventListener('DOMContentLoaded', function() {
     initializeFireworks();
