@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday My Devi💖</title>
+    <link rel="stylesheet" href="styles2.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"> -->
+</head>
+<body>
+    <!-- Floating Elements Background -->
+    <div id="floating-elements"></div>
+    
+    <!-- Navigation -->
+    <nav class="nav-container">
+        <div class="nav-content">
+            <a href="#home" class="nav-item active" data-page="home">
+                <span class="nav-icon">💖</span>
+                <span class="nav-label">Home</span>
+            </a>
+            <a href="#message" class="nav-item" data-page="message">
+                <span class="nav-icon">💌</span>
+                <span class="nav-label">Message</span>
+            </a>
+            <a href="#gallery" class="nav-item" data-page="gallery">
+                <span class="nav-icon">📸</span>
+                <span class="nav-label">Gallery</span>
+            </a>
+            <a href="#music" class="nav-item" data-page="music">
+                <span class="nav-icon">🎶</span>
+                <span class="nav-label">Music</span>
+            </a>
+            <a href="#love" class="nav-item" data-page="love">
+                <span class="nav-icon">✨</span>
+                <span class="nav-label">Love</span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Home Page -->
+        <div id="home" class="page active">
+            <div class="page-content">
+                <div class="home-title">
+                    <h1 class="main-title">Happy Birthday</h1>
+                    <h2 class="sub-title">Devi jii</h2><h2>💖🎂✨</h>
+                </div>
+                
+                <div class="home-message">
+                    <div class="message-card">
+                        <p>Aaj aapka special din hai, aur maine socha aapke liye kuch magical banaun!
+Aap meri life me itni khushi, pyaar aur happiness le aate ho.
+Aapke sath har pal ek beautiful sapna lagta hai.
+Chaliye celebrate karte hain aapke ek aur amazing saal ko 💕</p>
+                    </div>
+                </div>
+
+                <div class="home-buttons">
+                    <button class="btn-primary" onclick="showPage('message')">Read My Message 💌</button>
+                    <button class="btn-secondary" onclick="showPage('gallery')">Memories 📸</button>
+                </div>
+
+                <!-- Floating Birthday Elements -->
+                <div class="birthday-element cake">🎂</div>
+                <div class="birthday-element party">🎉</div>
+                <div class="birthday-element balloon">🎈</div>
+                <div class="birthday-element rose">🌹</div>
+            </div>
+        </div>
+
+        <!-- Message Page -->
+        <div id="message" class="page">
+            <div class="page-content">
+                <div class="page-header">
+                    <h1 class="page-title">Birthday Messages 💌</h1>
+                    <p class="page-subtitle">From the bottom of my heart, here are all the things I want you to know... 💕</p>
+                </div>
+
+                <div class="messages-container">
+                    <div class="message-item">
+                        <div class="message-emoji">🎂</div>
+                        <p>Happy Birthday meri life ke sabse incredible aur special insaan ko!" ✨ 🎉💕</p>
+                    </div>
+                    <div class="message-item">
+                        <div class="message-emoji">🌟</div>
+                        <p>Aapki muskaan har din ko roshan kar deti hai aur meri duniya ko aur bhi khoobsurat bana deti hai! 💖</p>
+                    </div>
+                    <div class="message-item">
+                        <div class="message-emoji">💕</div>
+                        <p>Main har ek pal ke liye thankful hu jo mujhe aapke saath bitane ko milta hai… wo mere liye priceless hai! 💫💖</p>
+                    </div>
+                    <div class="message-item">
+                        <div class="message-emoji">🌹</div>
+                        <p>Aap duniya ki saari khushiyon aur pyaar ke deserve karte ho! 🌍❤️</p>
+                    </div>
+                    <div class="message-item">
+                        <div class="message-emoji">💖</div>
+                        <p>Aapko dekhte hi mera dil har din ek beat skip kar deta hai… 💓🦋</p>
+                    </div>
+                </div>
+
+                <div class="final-message">
+                    <h2>You Are My someone very special💖</h2>
+                    <p>Humari roz baat nahi hoti, aur aap chat par hamesha reply bhi nahi karte ho… par fir bhi main aapke message ka intezaar karta hu.
+Chahe din me ek hi reply mile, wo mere liye bahut special hota hai.
+
+Vrindavan ka wo din aapke saath… fir Noida me milna aur time spend karna – har ek pal mujhe hamesha yaad rahega.
+Main truly love every single moment with you. 💖
+
+Thank you, Devi ji, for everything.
+Happy Birthday once again, my most special one.
+Aur haan… bas kisi ko batana mat… aap par mujhe crush hai 😅 ye ek top secret hai!🎂✨💕</p>
+                    <div class="celebration-emojis">💝🎉💖✨🎂💕</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Gallery Page -->
+        <div id="gallery" class="page">
+            <div class="page-content">
+                <div class="page-header">
+                    <h1 class="page-title">Our Beautiful Memories 📸✨</h1>
+                    <p class="page-subtitle">Every picture tells a story of our incredible journey together 💕</p>
+                </div>
+            <div class="gallery-grid">
+    <div class="photo-card" onclick="openModal('PIC/1 time.jpg')">
+        <img src="PIC/1 time.jpg" alt="Memory 1">
+        <div class="photo-caption">Jab maine aapko pehli baar dekha tha💕</div>
+        <div class="photo-heart">💖</div>
+    </div>
+    <div class="photo-card" onclick="openModal('PIC/DEVI JI 1.jpg')">
+        <img src="PIC/DEVI JI 1.jpg" alt="Memory 2">
+        <div class="photo-caption">Sunset moments with you ✨</div>
+        <div class="photo-heart">💖</div>
+    </div>
+    <div class="photo-card" onclick="openModal('PIC/Noida.jpg')">
+        <img src="PIC/Noida.jpg" alt="Memory 3">
+        <div class="photo-caption">The second time when we met 💕 </div>
+        <div class="photo-heart">💖</div>
+    </div>
+</div>
+
+<div class="memory-quote">
+    <h2>"Collecting moments, not things" ✨</h2>
+    <p>Har photo ek chhoti si kahani hai, aur har memory ek priceless gift. Tumhari wajah se zindagi itni khoobsurat lagti hai… bas aise hi saath mein aur hazaaron yaadein banani hain. 💕📸</p>
+    <div class="quote-emojis">💝📷✨💖🌟💕</div>
+</div>
+</div>
+</div>
+        <!-- Music Page -->
+        <div id="music" class="page">
+            <div class="page-content">
+                <div class="page-header">
+                    <h1 class="page-title">Our Love Song 🎶💖</h1>
+                    <p class="page-subtitle">Ye gaana jab bhi sunta hoon, tumhari yaad zaroor aati hai… jaise har ek sur tumse hi juda ho. 💕🎶💕</p>
+                </div>
+
+                <div class="music-player">
+                    <div class="album-art">
+                        <div class="vinyl-record" id="vinyl">
+                            <div class="record-center"></div>
+                        </div>
+                        <div class="heart-icon">💖</div>
+                    </div>
+
+                    <h2 class="song-title">Love Medicine</h2>
+                    <p class="artist-name">Just For You Jii  𓆩🥺🫶🏻💞𓆪</p>
+
+                    <div class="player-controls">
+                        <button class="play-btn" id="playBtn" onclick="togglePlay()">
+                            <span id="playIcon">▶</span>
+                        </button>
+                    </div>
+
+                    <div class="progress-bar">
+                        <span class="time">0:00</span>
+                        <div class="progress-track">
+                            <div class="progress-fill" id="progressFill"></div>
+                        </div>
+                        <span class="time">3:27</span>
+                    </div>
+
+                    <audio id="audioPlayer" preload="metadata">
+                        <source src="Music/Devi Jii.mp3" type="audio/wav">
+                    </audio>
+                </div>
+
+                <div class="song-dedication">
+                    <h3>Why This Song? 💭</h3>
+                    <p>Jab bhi yeh melody sunta hoon, bas tum yaad aati ho. Lyrics bilkul wahi feel dete hain jo main tumhare liye feel karta hoon – jaise maine apni perfect match dhoond li ho. Yeh humara song hai, aur hope karta hoon ki tumhe bhi sunke waise hi smile aaye jaise tum mujhe har din laati ho. 💖</p>
+                    <div class="music-emojis">🎵💕🎶✨💖🎼</div>
+                </div>
+                <!-- Floating Music Notes -->
+                <div class="music-note note1">🎵</div>
+                <div class="music-note note2">🎶</div>
+                <div class="music-note note3">🎼</div>
+                <div class="music-note note4">🎺</div>
+            </div>
+        </div>
+        <!-- Love Page -->
+        <div id="love" class="page">
+            <div class="page-content">
+                <div class="page-header">
+                    <h1 class="page-title">All My Love For You! </h1>
+                    <!-- <p class="page-subtitle">Click anywhere to spread the love! 💖</p> -->
+                    <div class="header-emojis">💖 💕 💗 💘 💝 💓 💟 ❤️ 🧡 💛</div>
+                </div>
+
+                <div class="love-messages">
+                    <div class="love-item">
+                        <div class="love-bg-emoji">💖</div>
+                        <p>You make my heart skip a beat! 💓</p>
+                    </div>
+                    <div class="love-item">
+                        <div class="love-bg-emoji">🙏</div>
+                        <p>Every day with you is a blessing! 🙏✨</p>
+                    </div>
+                    <div class="love-item">
+                        <div class="love-bg-emoji">☀️</div>
+                        <p>You're my sunshine on cloudy days! ☀️💛</p>
+                    </div>
+                    <div class="love-item">
+                        <div class="love-bg-emoji">💕</div>
+                        <p>I fall in love with you more each day! 💕</p>
+                    </div>
+                    <div class="love-item">
+                        <div class="love-bg-emoji">👋</div>
+                        <p>You're my favorite hello and hardest goodbye! 👋💔</p>
+                    </div>
+                    <div class="love-item">
+                        <div class="love-bg-emoji">🏡</div>
+                        <p>Together is my favorite place to be! 🏡💖</p>
+                    </div>
+                    <div class="love-item">
+                        <div class="love-bg-emoji">🧩</div>
+                        <p>You're the missing piece to my puzzle! 🧩💝</p>
+                    </div>
+                    <div class="love-item">
+                        <div class="love-bg-emoji">🌱</div>
+                        <p>My love for you grows stronger every second! 🌱💪</p>
+                    </div>
+                    <div class="love-item">
+                        <div class="love-bg-emoji">👑</div>
+                        <p>You're my happily ever after! 👑✨</p>
+                    </div>
+                    <div class="love-item">
+                        <div class="love-bg-emoji">⭐</div>
+                        <p>You make ordinary moments extraordinary! ⭐🎉</p>
+                    </div>
+                </div>
+                <div class="birthday-wishes">
+                    <h2>Special Birthday Wishes</h2>
+                    <div class="wishes-list">
+                        <div class="wish-item">May your birthday be filled with endless joy and laughter! 🎉</div>
+                        <div class="wish-item">Wishing you a year ahead full of love and adventure! 🌟</div>
+                        <div class="wish-item">Hope all your birthday wishes come true, my love! 💫</div>
+                        <div class="wish-item">You deserve all the happiness in the universe! 🌌</div>
+                        <div class="wish-item">May this new year of life bring you everything your heart desires! 💝</div>
+                        <div class="wish-item">Sending you all my love and warmest birthday hugs! 🤗</div>
+                        <div class="wish-item">Hope your special day is as amazing as you are! ✨</div>
+                        <div class="wish-item">Wishing you love, laughter, and endless cake! 🎂</div>
+                    </div>
+                </div>
+
+                <div class="final-love">
+                    <h2>I LIKE YOU INFINITELY! ∞💖</h2>
+                    <p>More than all the stars in the sky, more than all the grains of sand, 
+                    more than words can ever express! You are my everything! 🌟💕</p>
+                    <div class="infinite-love">💖💕💗💘💝💓💟❤️💋😍🥰😘💌🌹🦋✨⭐🌟💫🎉🎊🎂</div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal for Gallery -->
+    <div id="imageModal" class="modal" onclick="closeModal()">
+        <img id="modalImage" src="" alt="Enlarged photo">
+    </div>
+
+    <!-- Click Hearts Container -->
+    <div id="clickHearts"></div>
+     <script src="script2.js"></script>
+</body>
+</html>
